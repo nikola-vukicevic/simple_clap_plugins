@@ -4,10 +4,8 @@
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
-
-#include <clap/clap.h>
-// #include <math.h>
 #include <assert.h>
+#include "../libs/clap/include/clap/clap.h"
 #include "clap_utils.h"
 /* -------------------------------------------------------------------------- */
 #define MIN_DB -36
@@ -18,7 +16,7 @@ static const clap_plugin_descriptor_t s_gain_staging_desc = {
 	.id           = "org.nikola-vukicevic.clap-gain-staging",
 	.name         = "Gain staging",
 	.vendor       = "Nikola Vukicevic",
-	.url          = "https://surge-synth-team.org/",
+	.url          = "https://github.com/nikola-vukicevic/simple_clap_plugins",
 	.manual_url   = "",
 	.support_url  = "",
 	.version      = "1.0.0",
@@ -416,4 +414,3 @@ CLAP_EXPORT const clap_plugin_entry_t clap_entry = {
 	.get_factory  = entry_get_factory,
 };
 /* -------------------------------------------------------------------------- */
-
