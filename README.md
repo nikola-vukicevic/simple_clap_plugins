@@ -1,2 +1,3 @@
 # simple_clap_plugins
-Simple (utility) CLAP audio plugins
+
+This repository serves as a 'playground' for developing some simple audio plugins (gain staging utilities, audio filters, simple synths and such) ....
