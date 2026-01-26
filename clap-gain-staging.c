@@ -282,7 +282,7 @@ static clap_process_status gain_staging_process(const struct clap_plugin *plugin
 			}
 		}
 
-		/* process every samples until the next event */
+		/* process every sample until the next event */
 		for (; i < next_ev_frame; ++i) {
 			if (process->audio_inputs[0].data64) {
 				process_buffer_64(process->audio_inputs[0].data64, process->audio_outputs[0].data64, plug, process, i);
